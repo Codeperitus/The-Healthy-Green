@@ -1,0 +1,64 @@
+<div class="nav-container nav-back">
+	<div class="container">
+ 		<div class="span12">
+    		<ul id="nav" class="span9">
+        		<li  class="level0 nav-1 first level-top parent"><a href="http://localhost/healthygreen/index.php/shop-now.html?___SID=U"  class="level-top" ><span>Shop Now</span></a><ul class="sub-menu level0"><li  class="level1 nav-1-1 first"><a href="http://localhost/healthygreen/index.php/shop-now/grocery.html?___SID=U" ><span>Grocery</span></a></li><li  class="level1 nav-1-2 last"><a href="http://localhost/healthygreen/index.php/shop-now/flowers-bouqet.html?___SID=U" ><span>Flowers &amp; Bouqet</span></a></li></ul></li><li  class="level0 nav-2 level-top"><a href="http://localhost/healthygreen/index.php/dried-fruits-1.html?___SID=U"  class="level-top" ><span>Dried Fruits</span></a></li><li  class="level0 nav-3 level-top"><a href="http://localhost/healthygreen/index.php/eggs.html?___SID=U"  class="level-top" ><span>Eggs</span></a></li><li  class="level0 nav-4 level-top"><a href="http://localhost/healthygreen/index.php/fruits.html?___SID=U"  class="level-top" ><span>Fruits</span></a></li><li  class="level0 nav-5 level-top"><a href="http://localhost/healthygreen/index.php/herbs.html?___SID=U"  class="level-top" ><span>Herbs</span></a></li><li  class="level0 nav-6 level-top"><a href="http://localhost/healthygreen/index.php/flowers.html?___SID=U"  class="level-top" ><span>Flowers</span></a></li><li  class="level0 nav-7 level-top"><a href="http://localhost/healthygreen/index.php/leafy-veggies.html?___SID=U"  class="level-top" ><span>Leafy Veggies</span></a></li><li  class="level0 nav-8 level-top"><a href="http://localhost/healthygreen/index.php/organic.html?___SID=U"  class="level-top" ><span>Organic</span></a></li><li  class="level0 nav-9 level-top"><a href="http://localhost/healthygreen/index.php/spices.html?___SID=U"  class="level-top" ><span>Spices</span></a></li><li  class="level0 nav-10 last level-top"><a href="http://localhost/healthygreen/index.php/veggies.html?___SID=U"  class="level-top" ><span>Veggies</span></a></li>				<li class="custom_menu_links">
+									</li>
+    		</ul>
+    		<ul class="mycartcheck span3">
+    			<li><a class="mycart" href="http://localhost/healthygreen/index.php/checkout/cart/?___SID=U">My Cart</a></li>
+			    <li><a class="checkout" href="http://localhost/healthygreen/index.php/checkout/onepage/?___SID=U">Checkout</a></li>
+		    </ul>
+	    </div>
+   	</div>
+</div>
+<div class="mobMenu">
+	<div class="container">
+		<div class="span12">
+			<div class="span6">
+				<h1>
+					<span>Brands</span>
+					<a class="menuBox highlight btn btn-navbar" href="javascript:void(0);"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a>
+				</h1>
+				<div id="menuInnner" style="display:none;">
+					<ul class="accordion">
+						<li  class="level0 nav-1 first level-top parent"><a href="http://localhost/healthygreen/index.php/shop-now.html?___SID=U"  class="level-top" ><span>Shop Now</span></a><ul class="sub-menu level0"><li  class="level1 nav-1-1 first"><a href="http://localhost/healthygreen/index.php/shop-now/grocery.html?___SID=U" ><span>Grocery</span></a></li><li  class="level1 nav-1-2 last"><a href="http://localhost/healthygreen/index.php/shop-now/flowers-bouqet.html?___SID=U" ><span>Flowers &amp; Bouqet</span></a></li></ul></li><li  class="level0 nav-2 level-top"><a href="http://localhost/healthygreen/index.php/dried-fruits-1.html?___SID=U"  class="level-top" ><span>Dried Fruits</span></a></li><li  class="level0 nav-3 level-top"><a href="http://localhost/healthygreen/index.php/eggs.html?___SID=U"  class="level-top" ><span>Eggs</span></a></li><li  class="level0 nav-4 level-top"><a href="http://localhost/healthygreen/index.php/fruits.html?___SID=U"  class="level-top" ><span>Fruits</span></a></li><li  class="level0 nav-5 level-top"><a href="http://localhost/healthygreen/index.php/herbs.html?___SID=U"  class="level-top" ><span>Herbs</span></a></li><li  class="level0 nav-6 level-top"><a href="http://localhost/healthygreen/index.php/flowers.html?___SID=U"  class="level-top" ><span>Flowers</span></a></li><li  class="level0 nav-7 level-top"><a href="http://localhost/healthygreen/index.php/leafy-veggies.html?___SID=U"  class="level-top" ><span>Leafy Veggies</span></a></li><li  class="level0 nav-8 level-top"><a href="http://localhost/healthygreen/index.php/organic.html?___SID=U"  class="level-top" ><span>Organic</span></a></li><li  class="level0 nav-9 level-top"><a href="http://localhost/healthygreen/index.php/spices.html?___SID=U"  class="level-top" ><span>Spices</span></a></li><li  class="level0 nav-10 last level-top"><a href="http://localhost/healthygreen/index.php/veggies.html?___SID=U"  class="level-top" ><span>Veggies</span></a></li>									            <span class="clearfix"></span>
+					</ul>
+				</div>
+			</div>
+			<ul class="mycartcheck span6">
+			    <li><a class="mycart" href="http://localhost/healthygreen/index.php/checkout/cart/?___SID=U">My Cart</a></li>
+				<li><a class="checkout" href="http://localhost/healthygreen/index.php/checkout/onepage/?___SID=U">Checkout</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		jQuery('.menuBox').click(function() {
+		if (jQuery('#menuInnner').is(":hidden"))
+		{
+			jQuery('#menuInnner').slideDown("fast");
+		} else {
+			jQuery('#menuInnner').slideUp("fast");
+		}
+		return false;
+		});
+		if(jQuery(window).width() <= 1000){
+			jQuery('.nav-container').hide();
+			jQuery('.mobMenu').show();
+		}else{
+			jQuery('.nav-container').show();
+			jQuery('.mobMenu').hide();
+		}
+	}); 
+	jQuery(window).resize(function(){
+		if(jQuery(window).width() <= 1000){
+			jQuery('.nav-container').hide();
+			jQuery('.mobMenu').show();
+		}else{
+			jQuery('.nav-container').show();
+			jQuery('.mobMenu').hide();
+			}
+		});
+</script>

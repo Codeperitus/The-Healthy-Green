@@ -1,0 +1,226 @@
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_default
+ * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+
+/* Reset ================================================================================= */
+body {
+	font-family:Segoe UI;
+}
+.top-links-main {
+	background-color:#72ad05;
+	border-bottom:none;
+}
+.top-links-main ul.links li a {
+	color:#fff;
+}
+.top-links-main ul.links li a:hover {
+	color:#385a03;
+}
+.top-links-main #search_mini_form .form-search {
+	margin-top:8px;
+}
+.top-links-main #search_mini_form .form-search input {
+	padding:1px 2px;
+}
+.header-back {
+	background-color:#385a03;
+	border-bottom:1px solid #446b03;
+}
+.header-back .container .logo {
+	margin-bottom:0;
+}
+.header-back .container .quick-access .welcome-msg, .header-back .container .quick-access .welcome-msg a {
+	color:#fff;
+}
+.header-back .container .quick-access {
+	padding:34px 0 0;
+}
+.header-back .container .quick-access ul.links li {
+	list-style:none;
+	background:none;
+	border-right:1px solid #446b03;
+	padding:0 7px;
+}
+.header-back .container .quick-access ul.links li a {
+	color:#fff;
+	padding:0;
+}
+.nav-back {
+	background-color:#385a03;
+}
+.nav-back #nav li a {
+	margin:10px 0;
+	padding:4px 30px;
+	background:none;
+	border-left:1px solid #446b03;
+	border-right:1px solid #446b03;
+}
+.nav-back #nav li.active a {
+	color:#72ad05;
+}
+.nav-container.nav-back .container {
+	background:none;
+}
+.nav-container.nav-back .container .mycartcheck {
+	background-color:#72ad05;
+}
+.slider-banner {
+	background:url(http://localhost/healthygreen/media/shoe_store/slider-banner.jpg) no-repeat center;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	width:100%;
+	height:425px;
+}
+.back-2-top a span {
+	background-color:#385a03 !important;
+}
+.slider-banner .container {
+	position:relative;
+}
+.slider-banner .container .welcome-main {
+	background-color:rgba(0, 0, 0, 0.7);
+	margin-top:70px;
+	padding:30px;
+}
+.slider-banner .container .welcome-main .heading {
+	font-size:40px;
+	text-align:left;
+	padding-bottom:20px;
+	color:#fff;
+	line-height:40px;
+}
+.slider-banner .container .welcome-main .sub-heading {
+	font-size:20px;
+	text-align:left;
+	padding-bottom:20px;
+	color:#fff;
+	line-height:20px;
+}
+.slider-banner .container .welcome-main .content {
+	font-size:13px;
+	text-align:left;
+	color:#fff;
+	line-height:20px;
+}
+.block-cart {
+	background-color:#385a03;
+	border:1px solid #385a03;
+}
+ul.sub-menu {
+	border:none !important;
+	width:250px !important;
+}
+ul.sub-menu li {
+	background-color:#385a03;
+	border-top:1px solid #446b03;
+	border-bottom:none !important;
+}
+ul.sub-menu li a {
+	margin:0 !important;
+	padding:0 !important;
+}
+ul.sub-menu li a:hover {
+	font-weight:bold;
+	background:#72ad05 !important;
+	color:#fff !important;
+}
+ul.sub-menu li a span {
+	white-space:nowrap;
+}
+ul.sub-menu li.last {
+	background:none #385a03 !important;
+	border-top:1px solid #446b03;
+}
+#nav a:hover {
+	color:#fff;
+}
+.contact-para {
+	padding-bottom:10px;
+}
+.contact-form ul.form-list {
+	margin:0;
+	padding:0;
+}
+.contact-form .form-list li {
+	list-style:none;
+}
+.contact-form .form-list li .input-box input, .contact-form .form-list li .input-box textarea {
+	border-radius:3px;
+	-moz-border-radius:3px;	
+	padding:5px;
+}
+.contact-form .form-list li label.required em {
+	right:-12px;
+}
+.contact-form .form-list li label {
+	margin-bottom:5px;
+	color:#444340;
+}
+.contact-form .buttons-set button span {
+	background-color:inherit;
+	padding:0;
+	margin:0;
+	border:none;
+}
+.contact-form .buttons-set button span span {
+	border-radius:3px;
+	-moz-border-radius:3px;	
+	background-color:#2e2e2e;
+	padding:5px 10px;
+	margin-bottom:10px;
+}
+#messages_product_view .messages li {
+	border-radius:3px;
+	-moz-border-radius:3px;	
+}
+.subtitle, .sub-title {
+	color:#72ad05;
+}
+a.return_previous_page {
+	color:#72ad05;
+}
+.product-view .product-shop .product-name h1 {
+	color:#699f05;
+}
+.add-to-cart button.button span {
+	background-color:#699f05;
+	line-height:18px;
+}
+.add-to-cart button.button span:hover {
+	color:#72ad05 !important;
+}
+.mycartcheck li a {
+	font-size:14px;
+}
+.regular-price .price .cur_sym, .regular-price .price .price_deci {
+	font-size:21px;
+}
+.breadcrumbs a {
+	color:#72ad05;
+}
+.page-title h1, .page-title h2 {
+	color:#72ad05;
+}
