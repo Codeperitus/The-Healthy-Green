@@ -1,31 +1,66 @@
-/**
- * Magento
- *
- * NOTICE OF LICENSE
- *
- * This source file is subject to the Academic Free License (AFL 3.0)
- * that is bundled with this package in the file LICENSE_AFL.txt.
- * It is also available through the world-wide-web at this URL:
- * http://opensource.org/licenses/afl-3.0.php
- * If you did not receive a copy of the license and are unable to
- * obtain it through the world-wide-web, please send an email
- * to license@magentocommerce.com so we can send you a copy immediately.
- *
- * DISCLAIMER
- *
- * Do not edit or add to this file if you wish to upgrade Magento to newer
- * versions in the future. If you wish to customize Magento for your
- * needs please refer to http://www.magentocommerce.com for more information.
- *
- * @category    design
- * @package     default_default
- * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
- * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
- */
-
-/* Reset ================================================================================= */
 body {
 	font-family:Segoe UI;
+}
+a {
+    color:#72ad05;
+    text-decoration: none;
+}
+a:hover {
+    color:#385a03;
+}
+button.button {
+    background:none repeat scroll 0 0 transparent;
+    border:0 none;
+    cursor:pointer;
+    margin:0;
+    overflow:visible;
+    padding:0;
+    width:auto;
+}
+button.button span {
+    background:none repeat scroll 0 0 #385a03;
+    border:1px solid #385a03;
+    color:#fff;
+    display:block;
+    font:bold 12px/18px Verdana,Geneva,sans-serif;
+    height:auto;
+    padding:4px 10px;
+    text-align:center;
+    white-space:nowrap;
+	border-radius:3px;
+	-moz-border-radius:3px;
+}
+button.button span span {
+    border:0 none;
+    padding:0;
+}
+input[type="radio"], input[type="checkbox"] {
+	margin-top:0;
+}
+input.input-text:focus, select:focus, textarea:focus {
+	background-color:#f2f2f2;
+}
+.buttons-set {
+    margin: 20px 0 0;
+}
+.buttons-set button span {
+	background-color:inherit;
+	padding:0;
+	margin:0;
+	border:none;
+}
+.buttons-set button span span {
+	border-radius:3px;
+	-moz-border-radius:3px;	
+	background-color:#2e2e2e;
+	padding:7px 15px;
+	margin-bottom:10px;
+}
+button.button:hover span, .products-grid li.item:hover button.button span {
+	background:none repeat scroll 0 0 #72ad05;
+	border-color:#72ad05;
+	border-radius:3px;
+	-moz-border-radius:3px;	
 }
 .top-links-main {
 	background-color:#72ad05;
@@ -128,6 +163,7 @@ body {
 .block-cart {
 	background-color:#385a03;
 	border:1px solid #385a03;
+	padding:7px;
 }
 ul.sub-menu {
 	border:none !important;
@@ -223,4 +259,386 @@ a.return_previous_page {
 }
 .page-title h1, .page-title h2 {
 	color:#72ad05;
+}
+/***************************** register Form ***************************/
+.reg-main {
+	clear:both;
+}
+.reg-main .page-title {
+	border-bottom:none;
+	margin:15px 0 25px 0;
+}
+.reg-main .page-title h1 {
+	color:#385a03;
+	font-size:24px;
+}
+.reg-main .personal-main {
+	background-color:#ecffc7;
+	padding:7px;
+	margin-bottom:20px;
+}
+.reg-main .personal-main h2 {
+	background-color:#72ad05;
+	margin:0 0 10px 0;
+	padding:10px 20px;
+	color:#fff;
+	font-size:20px;
+	text-align:left;
+}
+.reg-main .form-list {
+	margin:0 20px;
+}
+.personal-main .form-list li .input-box input {
+	border-radius:3px;
+	-moz-border-radius:3px;	
+	padding:5px;
+}
+.personal-main .form-list li label.required em {
+	right:-12px;
+}
+.personal-main .form-list li label {
+	margin-bottom:5px;
+	color:#444340;
+}
+.reg-main .buttons-set button span {
+	background-color:inherit;
+	padding:0;
+	margin:0;
+	border:none;
+}
+.reg-main .buttons-set button span span {
+	border-radius:3px;
+	-moz-border-radius:3px;	
+	background-color:#2e2e2e;
+	padding:5px 10px;
+	margin-bottom:10px;
+}
+/***********************My account left menu ************************/
+.account-nav-main {
+	border:#72ad05 solid 1px;
+	padding:0;
+}
+.account-nav-main .block-title {
+	background-color:#72ad05;
+	padding:10px 15px;
+	font-size:18px;
+	text-align:left;
+	color:#fff;
+	line-height:20px;
+}
+.account-nav-main .block-content {
+	background-color:#fff;
+	padding:10px;
+}
+.account-nav-main .block-content ul li a {
+	border-bottom:1px dotted #e1e1e1;
+	font-size:13px;
+	line-height:28px;
+	padding-left:5px;
+	padding-right:5px;
+}
+.account-nav-main .block-content ul li a:hover {
+	color:#000;
+}
+.account-nav-main .block-content ul li.current {
+	background-color:#ecffc7;
+	color:#385a03;
+	border-bottom:1px dotted #e1e1e1;
+	padding:0 5px;
+}
+.account-nav-main .block-content ul li.current strong {
+	font-size:13px !important;
+	padding:3px 0;
+	line-height:33px;
+}
+/************************** my-wishlist ***************************/
+.my-wishlist .page-title {
+	border-bottom:none;
+	margin:5px 0 15px;
+}
+.my-wishlist .page-title h1 {
+	color:#385a03;
+	font-size:24px;
+}
+/************************** dashboard ***************************/
+.my-dashboard .page-title {
+	border-bottom:none;
+	margin:5px 0 15px;
+}
+.my-dashboard .page-title h1 {
+	color:#385a03;
+	font-size:24px;
+}
+.my-dashboard .box-account {
+	background-color:#ecffc7;
+	border:none;
+	padding:7px;
+}
+.my-dashboard .box-account .box-head {
+	border-bottom:none;
+	padding:7px;
+}
+.my-dashboard .box-account .box-head h2 {
+	color:#385a03;
+}
+.my-dashboard .box-account .col2-set .box {
+	padding:7px 26px;
+}
+.my-dashboard .box-account .col2-set .box .box-title h3 {
+	color:#333;
+	padding-bottom:8px;
+}
+.my-dashboard .box-account .col2-set .box .box-content h4 {
+	color:#333;
+}
+/*********************** Edit Account Information *************************/
+.edit-account-info {
+	border-bottom:none;
+	margin:5px 0 15px;
+}
+.edit-account-info h1 {
+	color:#385a03;
+	font-size:24px;
+}
+.edit-account-form {
+	background-color:#ecffc7;
+	padding:7px;
+	margin-bottom:20px;
+}
+.edit-account-form h2 {
+	background-color:#72ad05;
+	margin:0 0 10px 0;
+	padding:10px 20px;
+	color:#fff;
+	font-size:20px;
+	text-align:left;
+}
+.edit-account-form .form-list {
+	margin:0 20px;
+}
+.edit-account-form li .input-box input {
+	border-radius:3px;
+	-moz-border-radius:3px;	
+	padding:5px;
+}
+.edit-account-form li label.required em {
+	right:-12px;
+}
+.edit-account-form li label {
+	margin-bottom:5px;
+	color:#444340;
+}
+/*********************** Forgot Your Password? *************************/
+.forgot-pass {
+	border-bottom:none;
+	margin:5px 0 15px;
+}
+.forgot-pass h1 {
+	color:#385a03;
+	font-size:24px;
+}
+.forgot-pass-form, .newsletter-form, .add-new-address-form {
+	background-color:#ecffc7;
+	padding:7px;
+	margin-bottom:20px;
+}
+.forgot-pass-form p {
+	margin-left:20px;
+}
+.forgot-pass-form h2, .newsletter-form h2, .add-new-address-form h2 {
+	background-color:#72ad05;
+	margin:0 0 10px 0;
+	padding:10px 20px;
+	color:#fff;
+	font-size:20px;
+	text-align:left;
+}
+.forgot-pass-form .form-list, .newsletter-form .form-list, .add-new-address-form .form-list {
+	margin:0 20px;
+}
+.forgot-pass-form li .input-box input, .newsletter-form .input-box input, .add-new-address-form .input-box input {
+	border-radius:3px;
+	-moz-border-radius:3px;	
+	padding:5px;
+}
+.forgot-pass-form li label.required em, .newsletter-form li label.required em, .add-new-address-form li label.required em {
+	right:-12px;
+}
+.forgot-pass-form li label, .newsletter-form li label, .add-new-address-form li label {
+	margin-bottom:5px;
+	color:#444340;
+}
+/*********************** newsletter *************************/
+.newsletter, .add-new-address, .my-order, .billing-agreement, .recurring, .product-reviews, .my-tags, .my-applications, .downloadable-products, .checkout-heading {
+	border-bottom:none;
+	margin:5px 0 15px;
+}
+.newsletter h1, .add-new-address h1, .my-order h1, .billing-agreement h1, .recurring h1, .product-reviews h1, .my-tags h1, .my-applications h1, .downloadable-products h1, .checkout-heading h1 {
+	color:#385a03;
+	font-size:24px;
+}
+/********************* add new account ************************/
+.add-new-address-form .input-box select {
+	border-radius:3px;
+	-moz-border-radius:3px;	
+	padding:5px;
+}
+/***************** my cart sidebar ********************/
+.my-cart-sidebar .block-title {
+	background-color:#fff;
+	padding:8px;
+	margin:0;
+	color:#385a03;
+	font-size:14px;
+	text-align:left;
+}
+.my-cart-sidebar .block-content .summary {
+	padding:8px 0 0 0;
+}
+.my-cart-sidebar .block-content .summary .amount, .my-cart-sidebar .block-content .summary .subtotal {
+	color:#fff;
+}
+.my-cart-sidebar .block-content .summary .amount a, .my-cart-sidebar .block-content .summary .subtotal .price {
+	color:#fff600;
+}
+.my-cart-sidebar .block-content .actions {
+	padding:8px 0;
+	border-bottom:1px solid #fff;
+}
+.my-cart-sidebar .block-content .actions button.button span {
+	background-color:#72ad05;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	border:1px solid #72ad05;
+}
+.my-cart-sidebar .block-content .actions button.button span span {
+	background:none;
+	border:none;
+}
+.my-cart-sidebar .block-content .block-subtitle {
+	padding:8px 0;
+	color:#fff;
+	font-size:14px;
+}
+.my-cart-sidebar .block-content #cart-sidebar.mini-products-list .product-details {
+	width:75%;
+}
+.my-cart-sidebar .block-content #cart-sidebar.mini-products-list .product-details .btn-remove, .my-cart-sidebar .block-content #cart-sidebar.mini-products-list .product-details .btn-edit {
+	background-color:#fff;
+    background-position:center center;
+    border-radius:2px;
+    -moz-border-radius:2px;
+    padding:3px;
+}
+.mycartcheck {
+	background-color:#72ad05;
+}
+/******************************* Shopping Cart *******************************/
+.shopping-cart-main {
+}
+.shopping-cart-main .shopping-cart {
+	border-bottom:none;
+	margin:5px 0 15px;
+}
+.shopping-cart-main .shopping-cart h1 {
+	color:#385a03;
+	font-size:24px;
+	margin:0;
+}
+.shopping-cart-main .shopping-cart .checkout-types li {
+	margin:0;
+}
+.cart-table .btn-empty span, .cart-table .btn-continue span, .cart-table .btn-update span, .cart .discount button span, .cart .shipping button span {
+    background:none repeat scroll 0 0 #385a03;
+    border:1px solid #385a03;
+}
+.cart .discount button span, .cart .shipping button span {
+	margin:0;
+}
+.data-table thead th {
+	background-color:#e1e1e1;
+	padding:8px;
+}
+.data-table tfoot tr.first td {
+	background-color:#e1e1e1;
+	padding:8px;
+}
+.cart-table button {
+	margin-top:0 !important;
+}
+.product-name a {
+	color:#72ad05;
+}
+.product-name a:hover {
+	color:#385a03;
+}
+.cart .discount h2, .cart .shipping h2 {
+	color:#333;
+}
+.cart .totals {
+	background-color:#f2f2f2;
+	border:none;
+}
+.news-letter button {
+	height:32px;
+    margin:1px 0 0 15px;
+    width:48px;
+}
+.news-letter button span {
+	background:rgba(80, 80, 80, 1) !important;
+	border:none;
+	padding:7px 10px;
+}
+/*********************** Checkout ************************/
+.opc .active .step-title, .opc .allow .step-title {
+	background-color:#72ad05;
+	padding:10px;
+}
+
+.opc .allow .step-title {
+	border-color:#385a03;
+}
+.opc .active .step-title .number, .opc .allow .step-title .number {
+	background-color:#385a03;
+	border:none;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	font-weight:normal;
+	padding:2px 6px;	
+}
+.opc .active .step-title h2 {
+	line-height:20px;
+}
+.opc .step {
+	background:none #ecffc7;
+	border-color:#385a03;
+}
+.opc .step-title {
+	background:none #d2eba2;
+	padding:10px;
+	border-color:#385a03;
+}
+.opc .step-title h2 {
+	line-height:20px;
+	color:#89b636;
+}
+.opc .step-title .number {
+	border:none;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	font-weight:normal;
+	padding:2px 6px;	
+	color:#89b636;
+}
+#checkoutSteps input, #checkoutSteps textarea, #checkoutSteps select {
+	border-radius:3px;
+	-moz-border-radius:3px;	
+	padding:5px;
+}
+#checkoutSteps .form-list li label.required em {
+	right:-12px;
+}
+#checkoutSteps .form-list li label {
+	margin-bottom:5px;
+	color:#444340;
 }

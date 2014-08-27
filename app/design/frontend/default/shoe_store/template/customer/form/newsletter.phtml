@@ -24,15 +24,15 @@
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 ?>
-<div class="page-title">
+<div class="page-title newsletter">
     <h1><?php echo $this->__('Newsletter Subscription') ?></h1>
 </div>
 <?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
 <?php echo $this->getChildHtml('form_before')?>
 <form action="<?php echo $this->getAction() ?>" method="post" id="form-validate">
-    <div class="fieldset">
+    <div class="newsletter-form">
         <?php echo $this->getBlockHtml('formkey')?>
-        <h2 class="legend"><?php echo $this->__('Newsletter Subscription') ?></h2>
+        <h2><?php echo $this->__('Newsletter Subscription') ?></h2>
         <ul class="form-list">
             <li class="control"><input type="checkbox" name="is_subscribed" id="subscription" value="1" title="<?php echo $this->__('General Subscription') ?>"<?php if($this->getIsSubscribed()): ?> checked="checked"<?php endif; ?> class="checkbox" /><label for="subscription"><?php echo $this->__('General Subscription') ?></label></li>
             <?php /* Extensions placeholder */ ?>
